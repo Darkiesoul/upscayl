@@ -1,0 +1,30 @@
+## Upscayl Conversation History
+
+### Initial Project Analysis
+- Analyzed the Upscayl project structure which is an AI-powered image upscaler built with Electron and Next.js
+- Explored key directories: electron/, renderer/, models/
+- Examined important files: package.json, electron/index.ts, electron/commands/image-upscayl.ts
+- Installed dependencies using npm in CMD
+
+### Project Guide
+- Provided a comprehensive guide about Upscayl's functionality
+- Main features: AI image upscaling, batch processing, custom model support
+- Technical details: Uses Real-ESRGAN models via NCNN Vulkan for GPU-accelerated upscaling
+- Step-by-step usage guide for both single image and batch upscaling
+
+### Running Upscayl Locally
+- Shared instructions for running in development mode: `npm run dev`
+- Provided alternative methods for building and running the app
+- Listed hardware requirements including Vulkan-compatible GPU
+
+### Troubleshooting "Invalid GPU Device" Error
+- Suggested checking GPU ID settings in the app (trying values -1, 0, 1, or 2)
+- Recommended updating GPU drivers, especially for NVIDIA
+- Advised installing Vulkan Runtime
+- Provided GPU-specific workarounds through NVIDIA Control Panel settings
+- Suggested system power setting adjustments
+- Mentioned CPU fallback options if available
+- Recommended checking for hardware issues
+- Suggested trying older versions of Upscayl
+
+This history will help track our conversation when the user returns. 
